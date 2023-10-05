@@ -1,0 +1,1353 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title> میوه تازه </title>
+    <title>&#x62E;&#x627;&#x646;&#x647; - Luxelane.Web</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/swiper.css">
+    <link rel="stylesheet" href="assets/font/flaticon.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+    <div class="main-sidebar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-1 col-1">
+                    <div class="sidebar-wrap d-flex justify-content-between flex-column">
+                        <div class="sidebar-top d-flex flex-column align-items-center">
+                            <div class="category-icon">
+                                <i class="flaticon-menu"></i>
+                            </div>
+                        </div>
+                        <div class="sidebar-bottom">
+                            <ul class="sidebar-icons">
+                                <li><a href="/Account/Profile"><i class="flaticon-user"></i></a></li>
+                                <li class="cart-icon cursor-pointer">
+                                    <i class="flaticon-shopping-cart"></i>
+                                    <div class="cart-count"><span>1</span></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mobil-sidebar">
+        <ul class="mobil-sidebar-icons">
+            <li class="category-icon"><a href="#"><i class="flaticon-menu"></i></a></li>
+            <li><a href="/Account/Profile"><i class="flaticon-user"></i></a></li>
+            <li class="cart-icon cursor-pointer">
+                <a><i class="flaticon-shopping-cart"></i></a>
+                <div class="cart-count"><span>1</span></div>
+            </li>
+        </ul>
+    </div>
+    <div class="cart-sidebar-wrappper ">
+        <div class="main-cart-sidebar">
+            <div class="cart-top">
+                <div class="cart-close-icon">
+                    <i class="flaticon-letter-x"></i>
+                </div>
+                <ul class="cart-product-grid">
+                    <li title="&#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC; "
+                        class="single-cart-product s4">
+                        <div class="cart-product-info d-flex align-items-center">
+                            <div class="product-img">
+                                <img src="assets/image/d61d3462d8544871a7669549b31f027c.jpg"
+                                    alt="&#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC; &#x645;&#x62A;&#x646; &#x62E;&#x627;&#x646;&#x6AF;&#x6CC;"
+                                    class="img-fluid">
+                            </div>
+                            <div class="product-info">
+                                <a href="product-details.html">
+                                    <h5 class="product-title">&#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC;
+                                        &#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;</h5>
+                                </a>
+                                <p class="product-price">
+                                    <span>
+                                        1
+                                    </span> x <span class="p-price"> تومان 500,000</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cart-product-delete-btn">
+                            <a onclick="MinusItemCart(4,'s4',500000),'',false"><i class="flaticon-letter-x"></i></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="cart-bottom">
+                <div class="cart-total d-flex justify-content-between">
+                    <label>جمع کل:</label>
+                    <span><span class="subPrice">500,000</span> تومان</span>
+                </div>
+                <div class="cart-btns">
+                    <a href="/Product/Basket" class="cart-btn cart">سبد خرید</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="category-wrapper">
+        <div class="category-bar">
+            <h5 class="cb-title text-uppercase category-icon">
+                همه دسته
+                <i class="flaticon-arrow-pointing-to-right"></i>
+            </h5>
+            <ul class="cb-category-list">
+                <li class="cb-single-category"
+                    title="&#x62A;&#x6CC;&#x634;&#x631;&#x62A; &#x645;&#x631;&#x62F;&#x627;&#x646;&#x647;">
+                    <div class="cb-category-icon">
+                        <img src="assets/image/e8540a085e3143a498e4aa2c648762c3.jpg"
+                            alt="&#x62A;&#x6CC;&#x634;&#x631;&#x62A;" />
+                    </div>
+                    <a href="/Search/Product?catId=9">
+                        <h5 class="cb-category-title"> &#x645;&#x6CC;&#x648;&#x647; &#x62C;&#x627;&#x62A;<i
+                                class="bi bi-arrow-left"></i></h5>
+                    </a>
+                </li>
+                <li class="cb-single-category"
+                    title="&#x62A;&#x6CC;&#x634;&#x631;&#x62A; &#x645;&#x631;&#x62F;&#x627;&#x646;&#x647;">
+                    <div class="cb-category-icon">
+                        <img src="assets/image/d9e2ba5a0a7a4799ba073db9de480152.jpg"
+                            alt="&#x62A;&#x6CC;&#x634;&#x631;&#x62A;" />
+                    </div>
+                    <a href="/Search/Product?subId=10">
+                        <h5 class="cb-category-title"> &#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC;<i
+                                class="bi bi-arrow-left"></i></h5>
+                    </a>
+                </li>
+                <li class="cb-single-category" title="&#x644;&#x628;&#x627;&#x633; &#x632;&#x646;&#x627;&#x646;&#x647;">
+                    <div class="cb-category-icon">
+                        <img src="assets/image/10d444d112a84d0f9a7fdad410206c78.jpg"
+                            alt="&#x644;&#x628;&#x627;&#x633; &#x632;&#x646;&#x627;&#x646;" />
+                    </div>
+                    <a href="/Search/Product?catId=11">
+                        <h5 class="cb-category-title"> &#x635;&#x6CC;&#x641;&#x6CC; &#x62C;&#x627;&#x62A;<i
+                                class="bi bi-arrow-left"></i></h5>
+                    </a>
+                </li>
+                <li class="cb-single-category" title="&#x644;&#x628;&#x627;&#x633; &#x632;&#x646;&#x627;&#x646;&#x647;">
+                    <div class="cb-category-icon">
+                        <img src="assets/image/875c33c55c3d44f9ac054015f7e8c67f.jpg"
+                            alt="&#x644;&#x628;&#x627;&#x633; &#x632;&#x646;&#x627;&#x646;" />
+                    </div>
+                    <a href="/Search/Product?subId=12">
+                        <h5 class="cb-category-title"> &#x6AF;&#x648;&#x62C;&#x647;<i class="bi bi-arrow-left"></i></h5>
+                    </a>
+                </li>
+                <li class="cb-single-category">
+                    <div class="cb-category-icon">
+                        <img src="assets/image/fee5085608cb47ecb03b5b47482906e2.png" />
+                    </div>
+                    <a href="/Search/Product?subId=21">
+                        <h5 class="cb-category-title"> &#x644;&#x6CC;&#x645;&#x648;<i class="bi bi-arrow-left"></i></h5>
+                    </a>
+                </li>
+                <li class="cb-single-category">
+                    <div class="cb-category-icon">
+                        <img src="assets/image/ce6843bf110a4de1802c3985c423a06a.jpg" />
+                    </div>
+                    <a href="/Search/Product?subId=22">
+                        <h5 class="cb-category-title"> &#x647;&#x648;&#x6CC;&#x62C;<i class="bi bi-arrow-left"></i></h5>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <header>
+        <div class="header-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div
+                        class="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-xs-12 d-xl-flex align-items-center justify-content-center">
+                        <div class="main-logo d-flex justify-content-between align-items-center">
+                            <a href="/">
+                                زبان به انگلیسی و عربی تغییر یابد | نام سایت :النا
+                            </a>
+                            <div class="mobile-menu d-flex ">
+                                <a href="javascript:void(0)" class="hamburger d-block d-xl-none">
+                                    <span class="h-top"></span>
+                                    <span class="h-middle"></span>
+                                    <span class="h-bottom"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 d-flex justify-content-center">
+                        <nav class="main-nav">
+                            <div class="inner-logo">
+                            </div>
+                            <ul class="nav-item-list">
+                                <li>
+                                    <a class="active" href="/">خانه</a>
+                                </li>
+                                <li class="has-child-menu">
+                                    <a href="javascript:void(0)">دسته بندی ها</a>
+                                    <i class="fl flaticon-plus">+</i>
+                                    <ul class="sub-menu">
+                                        <li><a
+                                                href="/Search/Product?catSlug=&#x645;&#x6CC;&#x648;&#x647;-&#x62C;&#x627;&#x62A;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;">&#x645;&#x6CC;&#x648;&#x647;
+                                                &#x62C;&#x627;&#x62A;</a></li>
+                                        <li><a
+                                                href="/Search/Product?catSlug=&#x645;&#x6CC;&#x648;&#x647;-&#x62A;&#x648;&#x62A;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;">&#x62A;&#x648;&#x62A;
+                                                &#x641;&#x631;&#x646;&#x6AF;&#x6CC;</a></li>
+                                        <li><a
+                                                href="/Search/Product?catSlug=&#x635;&#x6CC;&#x641;&#x6CC;-&#x62C;&#x627;&#x62A;">&#x635;&#x6CC;&#x641;&#x6CC;
+                                                &#x62C;&#x627;&#x62A;</a></li>
+                                        <li><a
+                                                href="/Search/Product?catSlug=&#x6AF;&#x648;&#x62C;&#x647;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;">&#x6AF;&#x648;&#x62C;&#x647;</a>
+                                        </li>
+                                        <li><a
+                                                href="/Search/Product?catSlug=&#x644;&#x6CC;&#x645;&#x648;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;">&#x644;&#x6CC;&#x645;&#x648;</a>
+                                        </li>
+                                        <li><a
+                                                href="/Search/Product?catSlug=&#x647;&#x648;&#x6CC;&#x62C;-&#x62A;&#x627;&#x632;&#x647;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;">&#x647;&#x648;&#x6CC;&#x62C;</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="has-child-menu">
+                                    <a href="javascript:void(0)">وبلاگ ها</a>
+                                    <i class="fl flaticon-plus">+</i>
+                                    <ul class="sub-menu">
+                                        <li><a
+                                                href="/Search/Article?artSlut=&#x633;&#x627;&#x62E;&#x62A;-&#x627;&#x628;-&#x645;&#x6CC;&#x648;&#x647;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;">&#x633;&#x627;&#x62E;&#x62A;
+                                                &#x627;&#x628; &#x645;&#x6CC;&#x648;&#x647;
+                                                &#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="active" href="/Admin">ورود به پنل مدیریت</a>
+                                </li>
+                            </ul>
+                            <div class="inner-top">
+                                <div class="inner-mail">
+                                    <i class="flaticon-envelope"></i>
+                                    <a href="mail"><span class="__cf_email__">[ایمیل&#160;محافظت شده]</span></a>
+                                </div>
+                                <div class="inner-tel">
+                                    <i class="flaticon-support"></i>
+                                    <a href="tel:9162352304">9162352304</a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="col-xl-2 col-2 d-none d-xl-flex p-0 justify-content-end">
+                        <div class="nav-contact-no">
+                            <div class="contact-icon">
+                                <i class="flaticon-phone-call"></i>
+                            </div>
+                            <div class="contact-info">
+                                <p>شماره خط</p>
+                                <a href="tel:+989187504331">09187504331</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-2 d-none d-xl-flex p-0  align-items-center justify-content-center">
+                        <div class="nav-right text-center">
+                            <p class="text-uppercase">جمعه سیاه</p>
+                            <h5>همه موارد تا 20٪ تخفیف!</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero-area ml-110">
+        <div class="row">
+            <!-- Competitive Advantage -->
+            <div class="col-xxl-2 col-xl-3 col-lg-3 p-0 d-flex justify-content-between feature-banner-col">
+                <div class="banner-feature-item position-relative"
+                    style="background: linear-gradient(45deg, #ffb535, #f2295b);">
+                    <div class="b-feature-shape">
+                        <img src="assets/image/banner-feature-shape.png" alt="" class="position-absolute">
+                    </div>
+                    <div class="feature-head d-flex align-items-center position-relative">
+                        <div class="feature-icon">
+                            <i class="flaticon-shipping"></i>
+                        </div>
+                        <p>کیفیت ما</p>
+                    </div>
+                    <h5>پیشرفته ترین ویژگی ها</h5>
+                </div>
+                <div class="banner-feature-item position-relative"
+                    style="background: linear-gradient(45deg, #30c4e5, #27e55c);">
+                    <div class="b-feature-shape">
+                        <img src="assets/images/shapes/banner-feature-shape.png" alt="" class="position-absolute">
+                    </div>
+                    <div class="feature-head d-flex align-items-center position-relative">
+                        <div class="feature-icon">
+                            <i class="flaticon-price-tag"></i>
+                        </div>
+                        <p>سیستم قیمت</p>
+                    </div>
+                    <h5>قیمت بسیار مناسب</h5>
+                </div>
+                <div class="banner-feature-item position-relative"
+                    style="background: linear-gradient(45deg, #9c33f7, #2b9fff);">
+                    <div class="b-feature-shape">
+                        <img src="assets/images/shapes/banner-feature-shape.png" alt="" class="position-absolute">
+                    </div>
+                    <div class="feature-head d-flex align-items-center position-relative">
+                        <div class="feature-icon">
+                            <i class="flaticon-puzzle"></i>
+                        </div>
+                        <p>سیستم تحویل</p>
+                    </div>
+                    <h5>تحویل اول محصول</h5>
+                </div>
+                <div class="banner-feature-item position-relative"
+                    style="background: linear-gradient(45deg, #ff3571, #870075);">
+                    <div class="b-feature-shape">
+                        <img src="assets/images/shapes/banner-feature-shape.png" alt="" class="position-absolute">
+                    </div>
+                    <div class="feature-head d-flex align-items-center position-relative">
+                        <div class="feature-icon">
+                            <i class="flaticon-headphones"></i>
+                        </div>
+                        <p>پشتیبانی مشتری</p>
+                    </div>
+                    <h5>پشتیبانی زنده 24/7</h5>
+                </div>
+            </div>
+            <!-- Slider -->
+            <div class="col-xxl-10 col-xl-9 col-lg-9 p-0">
+                <div class="row">
+                    <div class="swiper-container hero-swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide hero-slider-item d-flex justify-content-center align-items-center position-relative"
+                                style=" background: url(assets/image/4f3b4d220dd246a0aabc8a0ee7b27263.jpg) center no-repeat; background-size: cover;">
+                                <div class="slider-image-layer">
+                                </div>
+                                <div class="slider-content position-relative text-center">
+                                    <h5 class="slider-sub-title">&#x6AF;&#x648;&#x62C;&#x647;
+                                        &#x62E;&#x627;&#x646;&#x6AF;&#x6CC;</h5>
+                                    <h2 class="slider-main-title">&#x62E;&#x631;&#x6CC;&#x62F; &#x628;&#x647;
+                                        &#x635;&#x631;&#x641;&#x647;</h2>
+                                    <div class="banner-btn">
+                                        <a href="https://localhost:44355/Product/Details/%D9%81%D8%B1%D9%88%D8%B4-%D8%A7%D9%82%D8%B5%D8%A7%D8%AA%DB%8C-%D9%85%D8%A7%D9%86%D8%AA%D9%88%DB%8C-%D8%B2%D9%86%D8%A7%D9%86%D9%87"
+                                            title="&#x6AF;&#x648;&#x62C;&#x647; &#x62E;&#x627;&#x646;&#x6AF;&#x6CC;"
+                                            class="eg-btn-xl"> مشاهده همه مجموعه</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide hero-slider-item d-flex justify-content-center align-items-center position-relative"
+                                style=" background: url(assets/image/537c52a0977b4cefb9b7101991589a77.jpg) center no-repeat; background-size: cover;">
+                                <div class="slider-image-layer">
+                                </div>
+                                <div class="slider-content position-relative text-center">
+                                    <h5 class="slider-sub-title">&#x62A;&#x648;&#x62A;
+                                        &#x641;&#x631;&#x646;&#x6AF;&#x6CC;</h5>
+                                    <h2 class="slider-main-title">&#x62A;&#x648;&#x62A;
+                                        &#x641;&#x631;&#x646;&#x6AF;&#x6CC; &#x62A;&#x627;&#x632;&#x647;</h2>
+                                    <div class="banner-btn">
+                                        <a href="https://localhost:44355/Product/Details/%D9%81%D8%B1%D9%88%D8%B4-%D9%84%D8%A8%D8%A7%D8%B3-%D8%B2%D9%86%D8%A7%D9%86%D9%87"
+                                            title="&#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC;"
+                                            class="eg-btn-xl"> مشاهده همه مجموعه</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"><i class="flaticon-arrow-pointing-to-right"></i></div>
+                        <div class="swiper-button-next"><i class="flaticon-arrow-pointing-to-left"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="searchbar-area ml-110">
+        <div class="container-fluid">
+            <form method="get" class="main-searchbar-form" action="/Search/Product">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="custom-select product-filter-options">
+                            <select name="catId">
+                                <option value="0">انتخاب کنید</option>
+                                <option value="9">&#x645;&#x6CC;&#x648;&#x647; &#x62C;&#x627;&#x62A;</option>
+                                <option value="11">&#x635;&#x6CC;&#x641;&#x6CC; &#x62C;&#x627;&#x62A;</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-8">
+                        <div class="searchbar-input">
+                            <input type="text" name="title" placeholder="دنبال چه محصولی می گردید؟">
+                            <button type="submit">جستجو</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Banner -->
+    <div class="banner-md-area ml-110">
+        <div class="container-fluid">
+            <div class="row">
+                <div title="&#x644;&#x645;&#x648;&#x6CC; &#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"
+                    class="col-lg-4 col-md-6">
+                    <div class="banner-md banner-md1 position-relative">
+                        <div class="banner-img">
+                            <img src="assets/image/40a1c72edc1747eeb7147542382c9f95.jpg"
+                                alt="&#x644;&#x6CC;&#x645;&#x648;" class="img-fluid">
+                        </div>
+                        <div class="banner-md-content position-absolute">
+                            <div class="banner-md-content-wrap">
+                                <div class="banner-lavel">&#x644;&#x645;&#x648;&#x6CC;
+                                    &#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;</div>
+                                <h3 class="banner-title">
+                                    &#x644;&#x645;&#x648;&#x6CC; &#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;
+                                </h3>
+                                <div class="banner-btn">
+                                    <a title="https://localhost:44311/swagger/index.html"
+                                        href="https://localhost:44355/Product/Details/%D9%81%D8%B1%D9%88%D8%B4-%D9%84%D8%A8%D8%A7%D8%B3-%D8%B2%D9%86%D8%A7%D9%86%D9%87-%D9%85%D8%AE%D8%B5%D9%88%D8%B5-%D8%AA%D8%A7%D8%A8%D8%B3%D8%AA%D8%A7%D9%86">اکنون
+                                        خرید کنید</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div title="&#x644;&#x6CC;&#x645;&#x648;&#x6CC; &#x634;&#x631;&#x628;&#x62A;&#x6CC;"
+                    class="col-lg-4 col-md-6">
+                    <div class="banner-md banner-md1 position-relative">
+                        <div class="banner-img">
+                            <img src="assets/image/b106c2d62a194dd294a2a4668aabaaa0.jpg"
+                                alt="&#x644;&#x6CC;&#x645;&#x648;&#x6CC; &#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"
+                                class="img-fluid">
+                        </div>
+                        <div class="banner-md-content position-absolute">
+                            <div class="banner-md-content-wrap">
+                                <div class="banner-lavel">&#x644;&#x6CC;&#x645;&#x648;&#x6CC;
+                                    &#x634;&#x631;&#x628;&#x62A;&#x6CC;</div>
+                                <h3 class="banner-title">
+                                    &#x644;&#x6CC;&#x645;&#x648;&#x6CC; &#x634;&#x631;&#x628;&#x62A;&#x6CC;
+                                </h3>
+                                <div class="banner-btn">
+                                    <a title="&#x631;&#x641;&#x62A;&#x646; &#x628;&#x647; &#x635;&#x641;&#x62D;&#x647; &#x645;&#x648;&#x631;&#x62F; &#x646;&#x638;&#x631;"
+                                        href="https://localhost:44355/Product/Details/%D9%81%D8%B1%D9%88%D8%B4-%D9%87%D9%88%D8%AF%DB%8C-%D8%B2%DB%8C%D9%BE%DB%8C-%D8%A2%D8%B3%D8%AA%D8%B1">اکنون
+                                        خرید کنید</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div title="&#x641;&#x631;&#x648;&#x634; &#x67E;&#x627;&#x6CC;&#x6CC;&#x632;&#x6CC; &#x635;&#x6CC;&#x641;&#x6CC; &#x62C;&#x627;&#x62A;"
+                    class="col-lg-4 col-md-6">
+                    <div class="banner-md banner-md1 position-relative">
+                        <div class="banner-img">
+                            <img src="assets/image/b8d093e30f924d8bae8383dadd7e0795.jpg"
+                                alt="&#x645;&#x62D;&#x635;&#x648;&#x644;&#x627;&#x62A; &#x67E;&#x627;&#x6CC;&#x6CC;&#x632;&#x6CC;"
+                                class="img-fluid">
+                        </div>
+                        <div class="banner-md-content position-absolute">
+                            <div class="banner-md-content-wrap">
+                                <div class="banner-lavel">&#x641;&#x631;&#x648;&#x634;
+                                    &#x67E;&#x627;&#x6CC;&#x6CC;&#x632;&#x6CC; &#x635;&#x6CC;&#x641;&#x6CC;
+                                    &#x62C;&#x627;&#x62A;</div>
+                                <h3 class="banner-title">
+                                    &#x641;&#x631;&#x648;&#x634; &#x67E;&#x627;&#x6CC;&#x6CC;&#x632;&#x6CC;
+                                    &#x635;&#x6CC;&#x641;&#x6CC; &#x62C;&#x627;&#x62A;
+                                </h3>
+                                <div class="banner-btn">
+                                    <a title="&#x627;&#x6CC;&#x648;&#x644; &#x628;&#x632;&#x646; &#x628;&#x631;&#x6CC;&#x645;"
+                                        href="https://localhost:44311/swagger/index.html12">اکنون خرید کنید</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="top-product-wrapper ml-110 mt-100">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 mb-25">
+                    <div class="section-head">
+                        <h2 class="section-title">فروش برتر این هفته</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xxl-3 col-xl-3 col-lg-4">
+                    <div class="nav flex-column nav-pills category-tabs" id="v-pills-tab" role="tablist"
+                        aria-orientation="vertical">
+                        <button class="nav-link active category-tab" id="eg-pills-nh1" data-bs-toggle="pill"
+                            data-bs-target="#eg-pills-one999" type="button" role="tab" aria-controls="eg-pills-one999"
+                            aria-selected="true">
+                            همه مجموعه
+                        </button>
+                        <button class="nav-link category-tab" id="eg-pills-1000" data-bs-toggle="pill"
+                            data-bs-target="#eg-pills-one1000" type="button" role="tab" aria-controls="eg-pills-one1000"
+                            aria-selected="false">
+                            &#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC;
+                        </button>
+                        <button class="nav-link category-tab" id="eg-pills-1001" data-bs-toggle="pill"
+                            data-bs-target="#eg-pills-one1001" type="button" role="tab" aria-controls="eg-pills-one1001"
+                            aria-selected="false">
+                            &#x6AF;&#x648;&#x62C;&#x647;
+                        </button>
+                        <button class="nav-link category-tab" id="eg-pills-1002" data-bs-toggle="pill"
+                            data-bs-target="#eg-pills-one1002" type="button" role="tab" aria-controls="eg-pills-one1002"
+                            aria-selected="false">
+                            &#x635;&#x6CC;&#x641;&#x6CC; &#x62C;&#x627;&#x62A;
+                        </button>
+                        <button class="nav-link category-tab" id="eg-pills-1003" data-bs-toggle="pill"
+                            data-bs-target="#eg-pills-one1003" type="button" role="tab" aria-controls="eg-pills-one1003"
+                            aria-selected="false">
+                            &#x644;&#x6CC;&#x645;&#x648;
+                        </button>
+                    </div>
+                </div>
+                <div class="col-xxl-9 col-xl-9 col-lg-8">
+                    <div class="tab-content eg-tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active eg-product-tab-pane" id="eg-pills-one999" role="tabpanel"
+                            aria-labelledby="eg-pills-999">
+                            <div class="row">
+
+                                <div class="col-xxl-3 xol-xl-3 col-lg-4 col-md-4 col-sm-6">
+                                    <div class="product-card-l">
+                                        <div class="product-img">
+                                            <a href="/Product/Details/&#x62A;&#x648;&#x62A;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"
+                                                title="&#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC; ">
+                                                <img src="assets/image/d61d3462d8544871a7669549b31f027c.jpg"
+                                                    alt="&#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC; &#x645;&#x62A;&#x646; &#x62E;&#x627;&#x646;&#x6AF;&#x6CC;">
+                                            </a>
+                                            <div class="product-actions">
+                                                <a
+                                                    href="/Product/Details/&#x62A;&#x648;&#x62A;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"><i
+                                                        class="flaticon-search"></i></a>
+                                                <a class="cursor-pointer" onclick="AddToCart(4,'')"><i
+                                                        class="flaticon-shopping-cart cursor-pointer"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-body">
+                                            <h3 class="product-title">
+                                                <a
+                                                    href="/Product/Details/&#x62A;&#x648;&#x62A;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;">
+                                                    &#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC;
+                                                    &#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;
+                                                </a>
+                                            </h3>
+                                            <div class="product-price">
+                                                <ins class="new-price">500,000 تومان</ins>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xxl-3 xol-xl-3 col-lg-4 col-md-4 col-sm-6">
+                                    <div class="product-card-l">
+                                        <div class="product-img">
+                                            <a href="/Product/Details/&#x6AF;&#x648;&#x62C;&#x647;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;"
+                                                title="&#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC;">
+                                                <img src="assets/image/fd6206d034774417b32458c091388034.jpg"
+                                                    alt="&#x6AF;&#x648;&#x62C;&#x647; &#x631;&#x628;&#x6CC;">
+                                            </a>
+                                            <div class="product-actions">
+                                                <a
+                                                    href="/Product/Details/&#x6AF;&#x648;&#x62C;&#x647;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;"><i
+                                                        class="flaticon-search"></i></a>
+                                                <a class="cursor-pointer" onclick="AddToCart(6,'')"><i
+                                                        class="flaticon-shopping-cart cursor-pointer"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-body">
+                                            <h3 class="product-title">
+                                                <a
+                                                    href="/Product/Details/&#x6AF;&#x648;&#x62C;&#x647;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;">
+                                                    &#x6AF;&#x648;&#x686;&#x647; &#x641;&#x631;&#x646;&#x6AF;&#x6CC;
+                                                </a>
+                                            </h3>
+                                            <div class="product-price">
+                                                <ins class="new-price">250,000 تومان</ins>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xxl-3 xol-xl-3 col-lg-4 col-md-4 col-sm-6">
+                                    <div class="product-card-l">
+                                        <div class="product-img">
+                                            <a href="/Product/Details/&#x647;&#x648;&#x6CC;&#x62C;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"
+                                                title="&#x635;&#x6CC;&#x641;&#x6CC; &#x62C;&#x627;&#x62A;">
+                                                <img src="assets/image/29ae3fb0a6b942ef8083c096f91c2557.jpg"
+                                                    alt="&#x635;&#x6CC;&#x641;&#x6CC; &#x62C;&#x627;&#x62A;">
+                                            </a>
+                                            <div class="product-lavels">
+                                                <span class="new">جدید</span>
+                                            </div>
+                                            <div class="product-actions">
+                                                <a
+                                                    href="/Product/Details/&#x647;&#x648;&#x6CC;&#x62C;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"><i
+                                                        class="flaticon-search"></i></a>
+                                                <a class="cursor-pointer" onclick="AddToCart(8,'')"><i
+                                                        class="flaticon-shopping-cart cursor-pointer"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-body">
+                                            <h3 class="product-title">
+                                                <a
+                                                    href="/Product/Details/&#x647;&#x648;&#x6CC;&#x62C;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;">
+                                                    &#x647;&#x648;&#x6CC;&#x62C;
+                                                    &#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;
+                                                </a>
+                                            </h3>
+                                            <div class="product-price">
+                                                <ins class="new-price">50,000 تومان</ins>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xxl-3 xol-xl-3 col-lg-4 col-md-4 col-sm-6">
+                                    <div class="product-card-l">
+                                        <div class="product-img">
+                                            <a href="/Product/Details/&#x644;&#x6CC;&#x645;&#x648;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"
+                                                title="&#x644;&#x6CC;&#x645;&#x648;">
+                                                <img src="assets/image/20d0238adeee40bc8df586abb6ac65a5.jpg"
+                                                    alt="&#x644;&#x6CC;&#x648;&#x645;&#x6CC; &#x62A;&#x627;&#x632;&#x647; &#x645;&#x62E;&#x635;&#x648;&#x635; &#x627;&#x628;&#x645;&#x6CC;&#x648;&#x647; &#x6AF;&#x6CC;&#x631;&#x6CC;">
+                                            </a>
+                                            <div class="product-lavels">
+                                                <span class="new">جدید</span>
+                                            </div>
+                                            <div class="product-actions">
+                                                <a
+                                                    href="/Product/Details/&#x644;&#x6CC;&#x645;&#x648;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"><i
+                                                        class="flaticon-search"></i></a>
+                                                <a class="cursor-pointer" onclick="AddToCart(11,'')"><i
+                                                        class="flaticon-shopping-cart cursor-pointer"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-body">
+                                            <h3 class="product-title">
+                                                <a
+                                                    href="/Product/Details/&#x644;&#x6CC;&#x645;&#x648;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;">
+                                                    &#x644;&#x6CC;&#x645;&#x648;&#x6CC; &#x62A;&#x627;&#x632;&#x647;
+                                                    &#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;
+                                                </a>
+                                            </h3>
+                                            <div class="product-price">
+                                                <ins class="new-price">80,000 تومان</ins>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade eg-product-tab-pane" id="eg-pills-one1000" role="tabpanel"
+                            aria-labelledby="eg-pills-1000">
+                            <div class="row">
+
+                                <div class="col-xxl-3 xol-xl-3 col-lg-4 col-md-4 col-sm-6">
+                                    <div class="product-card-l">
+                                        <div class="product-img">
+                                            <a href="/Product/Details/&#x62A;&#x648;&#x62A;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"
+                                                title="&#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC; ">
+                                                <img src="assets/image/d61d3462d8544871a7669549b31f027c.jpg"
+                                                    alt="&#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC; &#x645;&#x62A;&#x646; &#x62E;&#x627;&#x646;&#x6AF;&#x6CC;">
+                                            </a>
+                                            <div class="product-actions">
+                                                <a
+                                                    href="/Product/Details/&#x62A;&#x648;&#x62A;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"><i
+                                                        class="flaticon-search"></i></a>
+                                                <a class="cursor-pointer" onclick="AddToCart(4,'')"><i
+                                                        class="flaticon-shopping-cart cursor-pointer"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-body">
+                                            <h3 class="product-title">
+                                                <a
+                                                    href="/Product/Details/&#x62A;&#x648;&#x62A;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;">
+                                                    &#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC;
+                                                    &#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;
+                                                </a>
+                                            </h3>
+                                            <div class="product-price">
+                                                <ins class="new-price">500,000 تومان</ins>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade eg-product-tab-pane" id="eg-pills-one1001" role="tabpanel"
+                            aria-labelledby="eg-pills-1001">
+                            <div class="row">
+
+                                <div class="col-xxl-3 xol-xl-3 col-lg-4 col-md-4 col-sm-6">
+                                    <div class="product-card-l">
+                                        <div class="product-img">
+                                            <a href="/Product/Details/&#x6AF;&#x648;&#x62C;&#x647;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;"
+                                                title="&#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC;">
+                                                <img src="assets/image/fd6206d034774417b32458c091388034.jpg"
+                                                    alt="&#x6AF;&#x648;&#x62C;&#x647; &#x631;&#x628;&#x6CC;">
+                                            </a>
+                                            <div class="product-actions">
+                                                <a
+                                                    href="/Product/Details/&#x6AF;&#x648;&#x62C;&#x647;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;"><i
+                                                        class="flaticon-search"></i></a>
+                                                <a class="cursor-pointer" onclick="AddToCart(6,'')"><i
+                                                        class="flaticon-shopping-cart cursor-pointer"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-body">
+                                            <h3 class="product-title">
+                                                <a
+                                                    href="/Product/Details/&#x6AF;&#x648;&#x62C;&#x647;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;">
+                                                    &#x6AF;&#x648;&#x686;&#x647; &#x641;&#x631;&#x646;&#x6AF;&#x6CC;
+                                                </a>
+                                            </h3>
+                                            <div class="product-price">
+                                                <ins class="new-price">250,000 تومان</ins>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade eg-product-tab-pane" id="eg-pills-one1002" role="tabpanel"
+                            aria-labelledby="eg-pills-1002">
+                            <div class="row">
+
+                                <div class="col-xxl-3 xol-xl-3 col-lg-4 col-md-4 col-sm-6">
+                                    <div class="product-card-l">
+                                        <div class="product-img">
+                                            <a href="/Product/Details/&#x647;&#x648;&#x6CC;&#x62C;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"
+                                                title="&#x635;&#x6CC;&#x641;&#x6CC; &#x62C;&#x627;&#x62A;">
+                                                <img src="assets/image/29ae3fb0a6b942ef8083c096f91c2557.jpg"
+                                                    alt="&#x635;&#x6CC;&#x641;&#x6CC; &#x62C;&#x627;&#x62A;">
+                                            </a>
+                                            <div class="product-lavels">
+                                                <span class="new">جدید</span>
+                                            </div>
+                                            <div class="product-actions">
+                                                <a
+                                                    href="/Product/Details/&#x647;&#x648;&#x6CC;&#x62C;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"><i
+                                                        class="flaticon-search"></i></a>
+                                                <a class="cursor-pointer" onclick="AddToCart(8,'')"><i
+                                                        class="flaticon-shopping-cart cursor-pointer"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-body">
+                                            <h3 class="product-title">
+                                                <a
+                                                    href="/Product/Details/&#x647;&#x648;&#x6CC;&#x62C;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;">
+                                                    &#x647;&#x648;&#x6CC;&#x62C;
+                                                    &#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;
+                                                </a>
+                                            </h3>
+                                            <div class="product-price">
+                                                <ins class="new-price">50,000 تومان</ins>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade eg-product-tab-pane" id="eg-pills-one1003" role="tabpanel"
+                            aria-labelledby="eg-pills-1003">
+                            <div class="row">
+
+                                <div class="col-xxl-3 xol-xl-3 col-lg-4 col-md-4 col-sm-6">
+                                    <div class="product-card-l">
+                                        <div class="product-img">
+                                            <a href="/Product/Details/&#x644;&#x6CC;&#x645;&#x648;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"
+                                                title="&#x644;&#x6CC;&#x645;&#x648;">
+                                                <img src="assets/image/20d0238adeee40bc8df586abb6ac65a5.jpg"
+                                                    alt="&#x644;&#x6CC;&#x648;&#x645;&#x6CC; &#x62A;&#x627;&#x632;&#x647; &#x645;&#x62E;&#x635;&#x648;&#x635; &#x627;&#x628;&#x645;&#x6CC;&#x648;&#x647; &#x6AF;&#x6CC;&#x631;&#x6CC;">
+                                            </a>
+                                            <div class="product-lavels">
+                                                <span class="new">جدید</span>
+                                            </div>
+                                            <div class="product-actions">
+                                                <a
+                                                    href="/Product/Details/&#x644;&#x6CC;&#x645;&#x648;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"><i
+                                                        class="flaticon-search"></i></a>
+                                                <a class="cursor-pointer" onclick="AddToCart(11,'')"><i
+                                                        class="flaticon-shopping-cart cursor-pointer"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-body">
+                                            <h3 class="product-title">
+                                                <a
+                                                    href="/Product/Details/&#x644;&#x6CC;&#x645;&#x648;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;">
+                                                    &#x644;&#x6CC;&#x645;&#x648;&#x6CC; &#x62A;&#x627;&#x632;&#x647;
+                                                    &#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;
+                                                </a>
+                                            </h3>
+                                            <div class="product-price">
+                                                <ins class="new-price">80,000 تومان</ins>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tranding-product-wrapper ml-110 mt-70 position-relative">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 mb-50">
+                    <div class="section-head">
+                        <h2 class="section-title">محصولات پرطرفدار ما</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="swiper-tranding-container overflow-hidden pb-30">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product-card-xl">
+                                <div class="product-img-xl">
+                                    <a href="/Product/Details/&#x62A;&#x648;&#x62A;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"
+                                        title="&#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC; ">
+                                        <img src="assets/image/d61d3462d8544871a7669549b31f027c.jpg"
+                                            alt="&#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC; &#x645;&#x62A;&#x646; &#x62E;&#x627;&#x646;&#x6AF;&#x6CC;"
+                                            class="img-fluid">
+                                    </a>
+                                    <div class="product-actions-xl">
+                                        <a
+                                            href="/Product/Details/&#x62A;&#x648;&#x62A;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"><i
+                                                class="flaticon-search"></i></a>
+                                        <a class="cursor-pointer" onclick="AddToCart(4,'')"><i
+                                                class="flaticon-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content-xl text-center">
+                                    <a href="/Product/Details/&#x62A;&#x648;&#x62A;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"
+                                        class="product-title">&#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC;
+                                        &#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;</a>
+                                    <div class="product-price">
+                                        <ins class="new-price">500,000 تومان</ins>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card-xl">
+                                <div class="product-img-xl">
+                                    <a href="/Product/Details/&#x6AF;&#x648;&#x62C;&#x647;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;"
+                                        title="&#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC;">
+                                        <img src="assets/image/fd6206d034774417b32458c091388034.jpg"
+                                            alt="&#x6AF;&#x648;&#x62C;&#x647; &#x631;&#x628;&#x6CC;" class="img-fluid">
+                                    </a>
+                                    <div class="product-actions-xl">
+                                        <a
+                                            href="/Product/Details/&#x6AF;&#x648;&#x62C;&#x647;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;"><i
+                                                class="flaticon-search"></i></a>
+                                        <a class="cursor-pointer" onclick="AddToCart(6,'')"><i
+                                                class="flaticon-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content-xl text-center">
+                                    <a href="/Product/Details/&#x6AF;&#x648;&#x62C;&#x647;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;"
+                                        class="product-title">&#x6AF;&#x648;&#x686;&#x647;
+                                        &#x641;&#x631;&#x646;&#x6AF;&#x6CC;</a>
+                                    <div class="product-price">
+                                        <ins class="new-price">250,000 تومان</ins>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card-xl">
+                                <div class="product-img-xl">
+                                    <a href="/Product/Details/&#x647;&#x648;&#x6CC;&#x62C;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"
+                                        title="&#x635;&#x6CC;&#x641;&#x6CC; &#x62C;&#x627;&#x62A;">
+                                        <img src="assets/image/29ae3fb0a6b942ef8083c096f91c2557.jpg"
+                                            alt="&#x635;&#x6CC;&#x641;&#x6CC; &#x62C;&#x627;&#x62A;" class="img-fluid">
+                                    </a>
+                                    <div class="product-actions-xl">
+                                        <a
+                                            href="/Product/Details/&#x647;&#x648;&#x6CC;&#x62C;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"><i
+                                                class="flaticon-search"></i></a>
+                                        <a class="cursor-pointer" onclick="AddToCart(8,'')"><i
+                                                class="flaticon-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content-xl text-center">
+                                    <a href="/Product/Details/&#x647;&#x648;&#x6CC;&#x62C;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"
+                                        class="product-title">&#x647;&#x648;&#x6CC;&#x62C;
+                                        &#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;</a>
+                                    <div class="product-price">
+                                        <ins class="new-price">50,000 تومان</ins>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card-xl">
+                                <div class="product-img-xl">
+                                    <a href="/Product/Details/&#x644;&#x6CC;&#x645;&#x648;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"
+                                        title="&#x644;&#x6CC;&#x645;&#x648;">
+                                        <img src="assets/image/20d0238adeee40bc8df586abb6ac65a5.jpg"
+                                            alt="&#x644;&#x6CC;&#x648;&#x645;&#x6CC; &#x62A;&#x627;&#x632;&#x647; &#x645;&#x62E;&#x635;&#x648;&#x635; &#x627;&#x628;&#x645;&#x6CC;&#x648;&#x647; &#x6AF;&#x6CC;&#x631;&#x6CC;"
+                                            class="img-fluid">
+                                    </a>
+                                    <div class="product-actions-xl">
+                                        <a
+                                            href="/Product/Details/&#x644;&#x6CC;&#x645;&#x648;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"><i
+                                                class="flaticon-search"></i></a>
+                                        <a class="cursor-pointer" onclick="AddToCart(11,'')"><i
+                                                class="flaticon-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content-xl text-center">
+                                    <a href="/Product/Details/&#x644;&#x6CC;&#x645;&#x648;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"
+                                        class="product-title">&#x644;&#x6CC;&#x645;&#x648;&#x6CC;
+                                        &#x62A;&#x627;&#x632;&#x647;
+                                        &#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;</a>
+                                    <div class="product-price">
+                                        <ins class="new-price">80,000 تومان</ins>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next"><i class="flaticon-arrow-pointing-to-left"></i></div>
+                    <div class="swiper-button-prev"><i class="flaticon-arrow-pointing-to-right"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="recent-product-wrapper ml-110 mt-100">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 mb-25">
+                    <div class="section-head">
+                        <h2 class="section-title">محصولات اخیر</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xxl-3 col-xl-3 col-lg-4">
+                    <div class="nav flex-column nav-pills category-tabs" id="v-pills-tab" role="tablist"
+                        aria-orientation="vertical">
+                        <button class="nav-link active category-tab" id="eg-pills-n0" data-bs-toggle="pill"
+                            data-bs-target="#eg-pills-one0" type="button" role="tab" aria-controls="eg-pills-one0"
+                            aria-selected="true">
+                            همه مجموعه
+                        </button>
+                        <button class="nav-link category-tab" id="eg-pills-1" data-bs-toggle="pill"
+                            data-bs-target="#eg-pills-one1" type="button" role="tab" aria-controls="eg-pills-one1"
+                            aria-selected="false">
+                            &#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC;
+                        </button>
+                        <button class="nav-link category-tab" id="eg-pills-2" data-bs-toggle="pill"
+                            data-bs-target="#eg-pills-one2" type="button" role="tab" aria-controls="eg-pills-one2"
+                            aria-selected="false">
+                            &#x6AF;&#x648;&#x62C;&#x647;
+                        </button>
+                        <button class="nav-link category-tab" id="eg-pills-3" data-bs-toggle="pill"
+                            data-bs-target="#eg-pills-one3" type="button" role="tab" aria-controls="eg-pills-one3"
+                            aria-selected="false">
+                            &#x635;&#x6CC;&#x641;&#x6CC; &#x62C;&#x627;&#x62A;
+                        </button>
+                        <button class="nav-link category-tab" id="eg-pills-4" data-bs-toggle="pill"
+                            data-bs-target="#eg-pills-one4" type="button" role="tab" aria-controls="eg-pills-one4"
+                            aria-selected="false">
+                            &#x644;&#x6CC;&#x645;&#x648;
+                        </button>
+                    </div>
+                </div>
+                <div class="col-xxl-9 col-xl-9 col-lg-8">
+                    <div class="tab-content eg-tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active eg-product-tab-pane" id="eg-pills-one0" role="tabpanel"
+                            aria-labelledby="eg-pills-n0">
+                            <div class="row">
+
+                                <div class="col-xxl-3 xol-xl-3 col-lg-4 col-md-4 col-sm-6">
+                                    <div class="product-card-l">
+                                        <div class="product-img">
+                                            <a href="/Product/Details/&#x62A;&#x648;&#x62A;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"
+                                                title="&#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC; ">
+                                                <img src="assets/image/d61d3462d8544871a7669549b31f027c.jpg"
+                                                    alt="&#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC; &#x645;&#x62A;&#x646; &#x62E;&#x627;&#x646;&#x6AF;&#x6CC;">
+                                            </a>
+                                            <div class="product-actions">
+                                                <a
+                                                    href="/Product/Details/&#x62A;&#x648;&#x62A;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"><i
+                                                        class="flaticon-search"></i></a>
+                                                <a class="cursor-pointer" onclick="AddToCart(4,'')"><i
+                                                        class="flaticon-shopping-cart cursor-pointer"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-body">
+                                            <h3 class="product-title">
+                                                <a
+                                                    href="/Product/Details/&#x62A;&#x648;&#x62A;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;">
+                                                    &#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC;
+                                                    &#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;
+                                                </a>
+                                            </h3>
+                                            <div class="product-price">
+                                                <ins class="new-price">500,000 تومان</ins>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xxl-3 xol-xl-3 col-lg-4 col-md-4 col-sm-6">
+                                    <div class="product-card-l">
+                                        <div class="product-img">
+                                            <a href="/Product/Details/&#x6AF;&#x648;&#x62C;&#x647;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;"
+                                                title="&#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC;">
+                                                <img src="assets/image/fd6206d034774417b32458c091388034.jpg"
+                                                    alt="&#x6AF;&#x648;&#x62C;&#x647; &#x631;&#x628;&#x6CC;">
+                                            </a>
+                                            <div class="product-actions">
+                                                <a
+                                                    href="/Product/Details/&#x6AF;&#x648;&#x62C;&#x647;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;"><i
+                                                        class="flaticon-search"></i></a>
+                                                <a class="cursor-pointer" onclick="AddToCart(6,'')"><i
+                                                        class="flaticon-shopping-cart cursor-pointer"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-body">
+                                            <h3 class="product-title">
+                                                <a
+                                                    href="/Product/Details/&#x6AF;&#x648;&#x62C;&#x647;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;">
+                                                    &#x6AF;&#x648;&#x686;&#x647; &#x641;&#x631;&#x646;&#x6AF;&#x6CC;
+                                                </a>
+                                            </h3>
+                                            <div class="product-price">
+                                                <ins class="new-price">250,000 تومان</ins>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xxl-3 xol-xl-3 col-lg-4 col-md-4 col-sm-6">
+                                    <div class="product-card-l">
+                                        <div class="product-img">
+                                            <a href="/Product/Details/&#x647;&#x648;&#x6CC;&#x62C;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"
+                                                title="&#x635;&#x6CC;&#x641;&#x6CC; &#x62C;&#x627;&#x62A;">
+                                                <img src="assets/image/29ae3fb0a6b942ef8083c096f91c2557.jpg"
+                                                    alt="&#x635;&#x6CC;&#x641;&#x6CC; &#x62C;&#x627;&#x62A;">
+                                            </a>
+                                            <div class="product-lavels">
+                                                <span class="new">جدید</span>
+                                            </div>
+                                            <div class="product-actions">
+                                                <a
+                                                    href="/Product/Details/&#x647;&#x648;&#x6CC;&#x62C;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"><i
+                                                        class="flaticon-search"></i></a>
+                                                <a class="cursor-pointer" onclick="AddToCart(8,'')"><i
+                                                        class="flaticon-shopping-cart cursor-pointer"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-body">
+                                            <h3 class="product-title">
+                                                <a
+                                                    href="/Product/Details/&#x647;&#x648;&#x6CC;&#x62C;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;">
+                                                    &#x647;&#x648;&#x6CC;&#x62C;
+                                                    &#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;
+                                                </a>
+                                            </h3>
+                                            <div class="product-price">
+                                                <ins class="new-price">50,000 تومان</ins>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xxl-3 xol-xl-3 col-lg-4 col-md-4 col-sm-6">
+                                    <div class="product-card-l">
+                                        <div class="product-img">
+                                            <a href="/Product/Details/&#x644;&#x6CC;&#x645;&#x648;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"
+                                                title="&#x644;&#x6CC;&#x645;&#x648;">
+                                                <img src="assets/image/20d0238adeee40bc8df586abb6ac65a5.jpg"
+                                                    alt="&#x644;&#x6CC;&#x648;&#x645;&#x6CC; &#x62A;&#x627;&#x632;&#x647; &#x645;&#x62E;&#x635;&#x648;&#x635; &#x627;&#x628;&#x645;&#x6CC;&#x648;&#x647; &#x6AF;&#x6CC;&#x631;&#x6CC;">
+                                            </a>
+                                            <div class="product-lavels">
+                                                <span class="new">جدید</span>
+                                            </div>
+                                            <div class="product-actions">
+                                                <a
+                                                    href="/Product/Details/&#x644;&#x6CC;&#x645;&#x648;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"><i
+                                                        class="flaticon-search"></i></a>
+                                                <a class="cursor-pointer" onclick="AddToCart(11,'')"><i
+                                                        class="flaticon-shopping-cart cursor-pointer"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-body">
+                                            <h3 class="product-title">
+                                                <a
+                                                    href="/Product/Details/&#x644;&#x6CC;&#x645;&#x648;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;">
+                                                    &#x644;&#x6CC;&#x645;&#x648;&#x6CC; &#x62A;&#x627;&#x632;&#x647;
+                                                    &#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;
+                                                </a>
+                                            </h3>
+                                            <div class="product-price">
+                                                <ins class="new-price">80,000 تومان</ins>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade eg-product-tab-pane" id="eg-pills-one1" role="tabpanel"
+                            aria-labelledby="eg-pills-1">
+                            <div class="row">
+
+                                <div class="col-xxl-3 xol-xl-3 col-lg-4 col-md-4 col-sm-6">
+                                    <div class="product-card-l">
+                                        <div class="product-img">
+                                            <a href="/Product/Details/&#x62A;&#x648;&#x62A;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"
+                                                title="&#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC; ">
+                                                <img src="assets/image/d61d3462d8544871a7669549b31f027c.jpg"
+                                                    alt="&#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC; &#x645;&#x62A;&#x646; &#x62E;&#x627;&#x646;&#x6AF;&#x6CC;">
+                                            </a>
+                                            <div class="product-actions">
+                                                <a
+                                                    href="/Product/Details/&#x62A;&#x648;&#x62A;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"><i
+                                                        class="flaticon-search"></i></a>
+                                                <a class="cursor-pointer" onclick="AddToCart(4,'')"><i
+                                                        class="flaticon-shopping-cart cursor-pointer"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-body">
+                                            <h3 class="product-title">
+                                                <a
+                                                    href="/Product/Details/&#x62A;&#x648;&#x62A;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;">
+                                                    &#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC;
+                                                    &#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;
+                                                </a>
+                                            </h3>
+                                            <div class="product-price">
+                                                <ins class="new-price">500,000 تومان</ins>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade eg-product-tab-pane" id="eg-pills-one2" role="tabpanel"
+                            aria-labelledby="eg-pills-2">
+                            <div class="row">
+
+                                <div class="col-xxl-3 xol-xl-3 col-lg-4 col-md-4 col-sm-6">
+                                    <div class="product-card-l">
+                                        <div class="product-img">
+                                            <a href="/Product/Details/&#x6AF;&#x648;&#x62C;&#x647;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;"
+                                                title="&#x62A;&#x648;&#x62A; &#x641;&#x631;&#x646;&#x6AF;&#x6CC;">
+                                                <img src="assets/image/fd6206d034774417b32458c091388034.jpg"
+                                                    alt="&#x6AF;&#x648;&#x62C;&#x647; &#x631;&#x628;&#x6CC;">
+                                            </a>
+                                            <div class="product-actions">
+                                                <a
+                                                    href="/Product/Details/&#x6AF;&#x648;&#x62C;&#x647;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;"><i
+                                                        class="flaticon-search"></i></a>
+                                                <a class="cursor-pointer" onclick="AddToCart(6,'')"><i
+                                                        class="flaticon-shopping-cart cursor-pointer"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-body">
+                                            <h3 class="product-title">
+                                                <a
+                                                    href="/Product/Details/&#x6AF;&#x648;&#x62C;&#x647;-&#x641;&#x631;&#x646;&#x6AF;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;">
+                                                    &#x6AF;&#x648;&#x686;&#x647; &#x641;&#x631;&#x646;&#x6AF;&#x6CC;
+                                                </a>
+                                            </h3>
+                                            <div class="product-price">
+                                                <ins class="new-price">250,000 تومان</ins>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade eg-product-tab-pane" id="eg-pills-one3" role="tabpanel"
+                            aria-labelledby="eg-pills-3">
+                            <div class="row">
+
+                                <div class="col-xxl-3 xol-xl-3 col-lg-4 col-md-4 col-sm-6">
+                                    <div class="product-card-l">
+                                        <div class="product-img">
+                                            <a href="/Product/Details/&#x647;&#x648;&#x6CC;&#x62C;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"
+                                                title="&#x635;&#x6CC;&#x641;&#x6CC; &#x62C;&#x627;&#x62A;">
+                                                <img src="assets/image/29ae3fb0a6b942ef8083c096f91c2557.jpg"
+                                                    alt="&#x635;&#x6CC;&#x641;&#x6CC; &#x62C;&#x627;&#x62A;">
+                                            </a>
+                                            <div class="product-lavels">
+                                                <span class="new">جدید</span>
+                                            </div>
+                                            <div class="product-actions">
+                                                <a
+                                                    href="/Product/Details/&#x647;&#x648;&#x6CC;&#x62C;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"><i
+                                                        class="flaticon-search"></i></a>
+                                                <a class="cursor-pointer" onclick="AddToCart(8,'')"><i
+                                                        class="flaticon-shopping-cart cursor-pointer"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-body">
+                                            <h3 class="product-title">
+                                                <a
+                                                    href="/Product/Details/&#x647;&#x648;&#x6CC;&#x62C;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;">
+                                                    &#x647;&#x648;&#x6CC;&#x62C;
+                                                    &#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;
+                                                </a>
+                                            </h3>
+                                            <div class="product-price">
+                                                <ins class="new-price">50,000 تومان</ins>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade eg-product-tab-pane" id="eg-pills-one4" role="tabpanel"
+                            aria-labelledby="eg-pills-4">
+                            <div class="row">
+
+                                <div class="col-xxl-3 xol-xl-3 col-lg-4 col-md-4 col-sm-6">
+                                    <div class="product-card-l">
+                                        <div class="product-img">
+                                            <a href="/Product/Details/&#x644;&#x6CC;&#x645;&#x648;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"
+                                                title="&#x644;&#x6CC;&#x645;&#x648;">
+                                                <img src="assets/image/20d0238adeee40bc8df586abb6ac65a5.jpg"
+                                                    alt="&#x644;&#x6CC;&#x648;&#x645;&#x6CC; &#x62A;&#x627;&#x632;&#x647; &#x645;&#x62E;&#x635;&#x648;&#x635; &#x627;&#x628;&#x645;&#x6CC;&#x648;&#x647; &#x6AF;&#x6CC;&#x631;&#x6CC;">
+                                            </a>
+                                            <div class="product-lavels">
+                                                <span class="new">جدید</span>
+                                            </div>
+                                            <div class="product-actions">
+                                                <a
+                                                    href="/Product/Details/&#x644;&#x6CC;&#x645;&#x648;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;"><i
+                                                        class="flaticon-search"></i></a>
+                                                <a class="cursor-pointer" onclick="AddToCart(11,'')"><i
+                                                        class="flaticon-shopping-cart cursor-pointer"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="product-body">
+                                            <h3 class="product-title">
+                                                <a
+                                                    href="/Product/Details/&#x644;&#x6CC;&#x645;&#x648;&#x6CC;-&#x62A;&#x627;&#x632;&#x647;-&#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;">
+                                                    &#x644;&#x6CC;&#x645;&#x648;&#x6CC; &#x62A;&#x627;&#x632;&#x647;
+                                                    &#x627;&#x631;&#x6AF;&#x627;&#x646;&#x6CC;&#x6A9;
+                                                </a>
+                                            </h3>
+                                            <div class="product-price">
+                                                <ins class="new-price">80,000 تومان</ins>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Articles -->
+    <div class="blog-area ml-110 mt-100 position-relative">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 mb-25">
+                    <div class="section-head">
+                        <h2 class="section-title">آخرین وبلاگ ما</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="swiper-blog-container overflow-hidden">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="blog-card-m">
+                                <div class="blog-img-m">
+                                    <a title="&#x634;&#x631;&#x628;&#x62A;"
+                                        href="/Article/Details/&#x633;&#x627;&#x62E;&#x62A;-&#x634;&#x631;&#x628;&#x62A;"><img
+                                            src="assets/image/354873410dd74925b3c90eabf38b2dd2.png"
+                                            style="width: 314px; height: 260px;"
+                                            alt="&#x633;&#x627;&#x62E;&#x62A; &#x634;&#x631;&#x628;&#x62A; &#x62E;&#x627;&#x646;&#x6AF;&#x6CC;"></a>
+                                </div>
+                                <div class="blog-content-m">
+                                    <ul class="blog-info d-flex">
+                                        <li class="blog-date">
+                                            <i class="flaticon-time"></i>
+                                            11/1/2023 12:00:00 AM
+                                        </li>
+                                    </ul>
+                                    <div class="blog-bottom">
+                                        <h4 class="blog-title">
+                                            <a
+                                                href="/Article/Details/&#x633;&#x627;&#x62E;&#x62A;-&#x634;&#x631;&#x628;&#x62A;">
+                                                نظرات خود را در این نظرات زیر
+                                                با ما در میان بگذارید
+                                            </a>
+                                        </h4>
+                                        <div class="blog-link-btn">
+                                            <a
+                                                href="/Article/Details/&#x633;&#x627;&#x62E;&#x62A;-&#x634;&#x631;&#x628;&#x62A;">
+                                                مشاهده وبلاگ <i class="flaticon-arrow-pointing-to-left"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"><i class="flaticon-arrow-pointing-to-left"></i></div>
+                    <div class="swiper-button-prev"><i class="flaticon-arrow-pointing-to-right"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="mt-5 ml-110">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer-widget footer-about">
+                        <h5 class="footer-widget-title">درباره ما</h5>
+                        <p class="about-company">تیم برنامه نویسی الی سافت با مجرب ترین کادر اموزش ,ساخت برنامه ,مشاور
+                            کسب و کار در خدمت شماست</p>
+                        <div class="footer-contact-actions">
+                            <div class="footer-action"><a href="#">ایران،ملایر،خیابان شهید رجایی ساختمان پردیس</a></div>
+                        </div>
+                        <ul class="footer-social-links d-flex">
+                            <li><a href="#"><i class="flaticon-facebook"></i></a></li>
+                            <li><a href="#"><i class="flaticon-twitter"></i></a></li>
+                            <li><a href="#"><i class="flaticon-pinterest"></i></a></li>
+                            <li><a href="#"><i class="flaticon-instagram-1"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
+    <script src="assets/js/AddToCart.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/swiper.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
+</html>
