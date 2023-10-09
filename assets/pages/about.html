@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>فروشگاه مد EG - الگوی HTML تجارت الکترونیک چند منظوره</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../css/swiper.css">
+    <link rel="stylesheet" href="../font/flaticon.css">
+    <link rel="stylesheet" href="../css/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/jquery-ui.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body>
+    <div class="main-sidebar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-1 col-1">
+                    <div class="sidebar-wrap d-flex justify-content-between flex-column">
+                        <div class="sidebar-top d-flex flex-column align-items-center">
+                            <div class="category-icon">
+                                <i class="flaticon-menu"></i>
+                            </div>
+                        </div>
+                        <div class="sidebar-bottom">
+                            <ul class="sidebar-icons">
+                                <li><a href="../pages/profile.html"><i class="flaticon-user"></i></a></li>
+                                <li class="cart-icon cursor-pointer">
+                                    <i class="flaticon-shopping-cart"></i>
+                                    <div class="cart-count"><span>1</span></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mobil-sidebar">
+        <ul class="mobil-sidebar-icons">
+            <li class="category-icon"><a href="#"><i class="flaticon-menu"></i></a></li>
+            <li><a href="../pages/profile.html"><i class="flaticon-user"></i></a></li>
+            <li class="cart-icon cursor-pointer">
+                <a><i class="flaticon-shopping-cart"></i></a>
+                <div class="cart-count"><span>1</span></div>
+            </li>
+        </ul>
+    </div>
+    <!-- view box items cart (basket) -->
+    <div class="cart-sidebar-wrappper">
+        <div class="main-cart-sidebar">
+            <div class="cart-top">
+                <div class="cart-close-icon">
+                    <i class="flaticon-letter-x"></i>
+                </div>
+                <ul class="cart-product-grid">
+                    <li title="توت فرنگی " class="single-cart-product s4">
+                        <div class="cart-product-info d-flex align-items-center">
+                            <div class="product-img">
+                                <img src="../image/d61d3462d8544871a7669549b31f027c.jpg" alt="توت فرنگی متن خانگی"
+                                    class="img-fluid">
+                            </div>
+                            <div class="product-info">
+                                <a href="product-details.html">
+                                    <h5 class="product-title">توت فرنگی
+                                        ارگانیک</h5>
+                                </a>
+                                <p class="product-price">
+                                    <span>
+                                        1
+                                    </span> x <span class="p-price"> تومان 500,000</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cart-product-delete-btn">
+                            <a onclick="MinusItemCart(4,'s4',500000),'',false"><i class="flaticon-letter-x"></i></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="cart-bottom">
+                <div class="cart-total d-flex justify-content-between">
+                    <label>جمع کل:</label>
+                    <span><span class="subPrice">500,000</span> تومان</span>
+                </div>
+                <div class="cart-btns">
+                    <a href="../pages/basket.html" class="cart-btn cart">سبد خرید</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- view box category -->
+    <div class="category-wrapper">
+        <div class="category-bar category-sticky">
+            <h5 class="cb-title text-uppercase category-icon">
+                همه دسته
+                <i class="flaticon-arrow-pointing-to-right"></i>
+            </h5>
+            <ul class="cb-category-list">
+                <li class="cb-single-category" title="تیشرت مردانه">
+                    <div class="cb-category-icon">
+                        <img src="../image/e8540a085e3143a498e4aa2c648762c3.jpg" alt="تیشرت">
+                    </div>
+                    <a href="#">
+                        <h5 class="cb-category-title"> میوه جات<i class="bi bi-arrow-left"></i></h5>
+                    </a>
+                </li>
+                <li class="cb-single-category" title="تیشرت مردانه">
+                    <div class="cb-category-icon">
+                        <img src="../image/d9e2ba5a0a7a4799ba073db9de480152.jpg" alt="تیشرت">
+                    </div>
+                    <a href="#">
+                        <h5 class="cb-category-title"> توت فرنگی<i class="bi bi-arrow-left"></i></h5>
+                    </a>
+                </li>
+                <li class="cb-single-category" title="لباس زنانه">
+                    <div class="cb-category-icon">
+                        <img src="../image/10d444d112a84d0f9a7fdad410206c78.jpg" alt="لباس زنان">
+                    </div>
+                    <a href="#">
+                        <h5 class="cb-category-title"> صیفی جات<i class="bi bi-arrow-left"></i></h5>
+                    </a>
+                </li>
+                <li class="cb-single-category" title="لباس زنانه">
+                    <div class="cb-category-icon">
+                        <img src="../image/875c33c55c3d44f9ac054015f7e8c67f.jpg" alt="لباس زنان">
+                    </div>
+                    <a href="#">
+                        <h5 class="cb-category-title"> گوجه<i class="bi bi-arrow-left"></i></h5>
+                    </a>
+                </li>
+                <li class="cb-single-category">
+                    <div class="cb-category-icon">
+                        <img src="../image/fee5085608cb47ecb03b5b47482906e2.png">
+                    </div>
+                    <a href="#">
+                        <h5 class="cb-category-title"> لیمو<i class="bi bi-arrow-left"></i></h5>
+                    </a>
+                </li>
+                <li class="cb-single-category">
+                    <div class="cb-category-icon">
+                        <img src="../image/ce6843bf110a4de1802c3985c423a06a.jpg">
+                    </div>
+                    <a href="#">
+                        <h5 class="cb-category-title"> هویج<i class="bi bi-arrow-left"></i></h5>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <header>
+        <div class="header-area sticky">
+            <div class="container-fluid">
+                <div class="row">
+                    <div
+                        class="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-xs-12 d-xl-flex align-items-center justify-content-center">
+                        <div class="main-logo d-flex justify-content-between align-items-center">
+                            <a href="/">
+                                زبان به انگلیسی و عربی تغییر یابد | نام سایت :النا
+                            </a>
+                            <div class="mobile-menu d-flex ">
+                                <a href="javascript:void(0)" class="hamburger d-block d-xl-none">
+                                    <span class="h-top"></span>
+                                    <span class="h-middle"></span>
+                                    <span class="h-bottom"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 d-flex justify-content-center">
+                        <nav class="main-nav">
+                            <div class="inner-logo">
+                                <a href="/index.html">لوگو</a>
+                            </div>
+                            <ul class="nav-item-list">
+                                <li>
+                                    <a href="/index.html">خانه</a>
+                                </li>
+                                <li><a href="../pages/about.html">درباره ما</a></li>
+                                <li class="has-child-menu">
+                                    <a href="javascript:void(0)">فروشگاه</a>
+                                    <i class="fl flaticon-plus">+</i>
+                                    <ul class="sub-menu">
+                                        <li><a href="../pages/product.html">محصولات</a></li>
+                                        <li><a href="../pages/product-details.html">جزئیات محصولات</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-child-menu">
+                                    <a href="javascript:void(0)">صفحات</a>
+                                    <i class="fl flaticon-plus">+</i>
+                                    <ul class="sub-menu">
+                                        <li><a href="../pages/basket.html">خرید</a></li>
+                                        <li><a href="../pages/checkout.html">بررسی</a></li>
+                                        <li><a href="../pages/login.html">ورود</a></li>
+                                        <li><a href="../pages/register.html">ثبت نام</a></li>
+                                        <li><a href="../pages/profile.html">پروفایل</a></li>
+                                        <li><a href="../pages/dashboard.html">داشبورد</a></li>
+                                        <li><a href="../pages/order.html">سفارشات</a></li>
+                                        <li><a href="../pages/setting.html">تنظیمات</a></li>
+                                        <li><a href="../pages/coming-soon.html">به زودی</a></li>
+                                        <li><a href="../pages/faq.html">سوالت متداول</a></li>
+                                        <li><a href="../pages/404.html">404</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-child-menu">
+                                    <a href="javascript:void(0)">مقالات</a>
+                                    <i class="fl flaticon-plus">+</i>
+                                    <ul class="sub-menu">
+                                        <li><a href="../pages/article-grid.html"> مقالات </a></li>
+                                        <li><a href="../pages/article-sidebar.html"> جستجوی مقاله </a></li>
+                                        <li><a href="../pages/article-details.html">جزئیات مقاله</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="../pages/contact.html">تماس با ما</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-xl-4 col-4 d-none d-xl-flex p-0  align-items-center justify-content-center">
+                        <div class="nav-right text-center">
+                            <p class="text-uppercase"> تخفیفات بهاری </p>
+                            <h5>
+                                تمامی اجناس بهاری 12% تخفیف دارند
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="breadcrumb-area ml-110">
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-bg d-flex justify-content-center align-items-center">
+                        <div class="breadcrumb-content text-center">
+                            <h2 class="page-title">درباره ما</h2>
+                            <ul class="page-switcher d-flex ">
+                                <li><a href="index.html">خانه</a> <i class="flaticon-arrow-pointing-to-left"></i></li>
+                                <li>درباره ما</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-wrapper mt-100 ml-110">
+        <div class="container">
+            <div class="about-row1">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-xxl-8 col-xl-7">
+                        <div class="about-details">
+                            <h2>ما یک سازمان غذائی با ارائه محتوا و تجربیات مفید هستیم.</h2>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                                استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
+                                لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                            </p>
+                            <div class="signature"> <img src="../image/about-us-signature.png" alt=""> </div>
+                            <div class="row">
+                                <div class="col-xxl-12">
+                                    <div class="about-service-wrap d-flex text-center">
+                                        <div class="about-single-service">
+                                            <div class="about-service-icon"><i class="flaticon-worldwide-shipping"></i>
+                                            </div>
+                                            <h5>حمل و نقل در سراسر جهان</h5>
+                                        </div>
+                                        <div class="about-single-service">
+                                            <div class="about-service-icon"><i class="flaticon-exchange-1"></i></div>
+                                            <h5>سیاست بازگشت 14 روزه</h5>
+                                        </div>
+                                        <div class="about-single-service">
+                                            <div class="about-service-icon"><i class="flaticon-credit-card"></i></div>
+                                            <h5>پرداخت امنیتی برتر</h5>
+                                        </div>
+                                        <div class="about-single-service">
+                                            <div class="about-service-icon"><i class="flaticon-delivery"></i></div>
+                                            <h5>ارسال رایگان درب منزل</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-row2 mt-100">
+                <div class="row justify-content-center">
+                    <div class="col-xxl-12">
+                        <div class="about-history-wrap text-center">
+                            <h2>تاریخ ما</h2>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی
+                                در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم
+                                افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی</p>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم استلورم ایپسوم متن
+                                ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+                            <div class="history-more-btn">
+                                <a href="#" class="eg-btn-md">ادامه مطلب</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- news latter -->
+    <div class="newslatter-area ml-110 mt-100">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="newslatter-wrap text-center">
+                        <h2 class="newslatter-title">خبر نامه ما</h2>
+                        <p>شما می توانید با ثبت نام در خبرنامه ما از جدید ترین تخفیف ها با خبر شوید</p>
+                        <form action="#" method="POST">
+                            <div class="newslatter-form">
+                                <input type="text" placeholder="ایمیل را وارد کنید">
+                                <button type="submit">ارسال <i class="bi bi-envelope-fill"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer-area ml-110">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer-widget footer-about">
+                        <h5 class="footer-widget-title">درباره ما</h5>
+                        <p class="about-company">تیم برنامه نویسی الی سافت با مجرب ترین کادر اموزش ,ساخت برنامه ,مشاور
+                            کسب و کار در خدمت شماست</p>
+                        <div class="footer-contact-actions">
+                            <div class="footer-action"><a href="https://eli-soft.ir">ایران - همدان - ملایر : خیابان شهید
+                                    رجایی ساختمان پردیس</a></div>
+                        </div>
+                        <ul class="footer-social-links d-flex">
+                            <li><a href="#"><i class="flaticon-facebook"></i></a></li>
+                            <li><a href="#"><i class="flaticon-twitter"></i></a></li>
+                            <li><a href="#"><i class="flaticon-instagram-1"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9 ">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="footer-widget">
+                                <h5 class="footer-widget-title">لینک های سریع</h5>
+                                <ul class="footer-links">
+                                    <li><a href="../pages/about.html">درباره ما</a></li>
+                                    <li><a href="../pages/product.html"> میوه های جدید </a></li>
+                                    <li><a href="../pages/404.html"> 404 </a></li>
+                                    <li><a href="../pages/product-details.html"> جزئیات محصولات </a></li>
+                                    <li><a href="../pages/blog-grid.html">آخرین اخبار ما</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="footer-widget">
+                                <h5 class="footer-widget-title"> محصولات ما </h5>
+                                <ul class="footer-links">
+                                    <li><a href="#"> توت فرنگی </a></li>
+                                    <li><a href="#"> ریحون </a></li>
+                                    <li><a href="#"> اب میوه </a></li>
+                                    <li><a href="#"> گلابی </a></li>
+                                    <li><a href="#"> گیلاس </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="footer-widget">
+                                <h5 class="footer-widget-title"> شعب ما </h5>
+                                <ul class="footer-links">
+                                    <li><a href="#">تهران</a></li>
+                                    <li><a href="#">همدان</a></li>
+                                    <li><a href="#">مشهد</a></li>
+                                    <li><a href="#">قم</a></li>
+                                    <li><a href="#">بندر عباس</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/swiper.js"></script>
+    <script src="../js/jquery-ui.min.js"></script>
+    <script src="../js/jquery.fancybox.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
