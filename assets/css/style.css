@@ -1,3 +1,6 @@
+/*
+Version:4.1
+*/
 .main-nav .fl,
 .main-nav .fl:before {
   line-height: 35px;
@@ -476,7 +479,7 @@ li.single-cart-product .cart-product-delete-btn i {
   gap: 10px;
   padding: 10px;
   background-color: var(--color-primary);
-  box-shadow:inset 0 0 5px 2px rgb(34, 0, 255);
+  box-shadow: inset 0 0 5px 2px rgb(34, 0, 255);
   border-radius: 7px;
   transition: left 0.3s ease-out, opacity 0.2s ease-out, z-index 1s;
   opacity: 0;
@@ -533,8 +536,7 @@ li.single-cart-product .cart-product-delete-btn i {
   img,
 .faq-accordions .accordion-item h2 button:not(.collapsed) {
   background: var(--color-secondary);
-  color: var(
-  --color-light);
+  color: var(--color-light);
 }
 
 .category-bar .cb-category-list li.cb-single-category .cb-category-icon img {
@@ -1936,7 +1938,7 @@ header .header-area .main-nav > ul > li > a.active:before {
   a,
 .client-review-card .review-actions li a,
 .p-video a {
-  color: var(--color-primary);
+  color: var(--color-light);
 }
 
 .bs-social .bs-social-list li a:hover,
@@ -2654,7 +2656,7 @@ input[type="number"] {
 .product-sidebar {
   background: var(--color-secondary);
   -webkit-box-shadow: -7px 10px 40px rgba(0, 0, 0, 0.1);
-  box-shadow: -7px 10px 40px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 18px 2px rgb(105 105 105 / 58%);
   border-radius: 5px;
 }
 
@@ -2720,7 +2722,7 @@ input[type="number"] {
 
 .sidebar-category .accordion-item {
   border: none;
-  border-bottom: 1px solid #eee;
+  border-bottom: 2px solid var(--color-secondary);
   margin-bottom: 0;
   background: var(--color-primary);
 }
@@ -2740,7 +2742,7 @@ input[type="number"] {
 .sb-category-dropdown .accordion-button:focus,
 .sidebar-category .accordion-item:focus {
   -webkit-box-shadow: none;
-  box-shadow: none;
+  box-shadow: 0 -2px 4px 1px var(--color-primary);
 }
 
 .sb-category-dropdown .accordion-body .sb-category-list li {
@@ -2773,7 +2775,7 @@ input[type="number"] {
   -webkit-transition: unset;
   transition: unset;
   line-height: 32px;
-  color: var(--color-primary);
+  color: var(--color-light);
 }
 
 .price-range-slider .range-bar,
@@ -2907,7 +2909,7 @@ input[type="number"] {
 .sb-tags h5.sb-title {
   font-weight: 600;
   font-size: 20px;
-  color: var(--color-primary);
+  color: var(--color-light);
   margin-bottom: 18px;
 }
 
@@ -2945,7 +2947,7 @@ input[type="number"] {
 .product-sorting .show-text span {
   font-family: var(--font-secondary);
   font-size: 16px;
-  color: var(--color-primary);
+  color: var(--color-light);
 }
 
 .product-sorting .category-sort select {
@@ -3003,7 +3005,7 @@ input[type="number"] {
 .product-details-wrap .pd-top .product-rating li.count-review {
   font-weight: 500;
   font-size: 16px;
-  color: var(--color-secondary);
+  color: var(--color-light);
   font-family: var(--font-secondary);
 }
 
@@ -3106,7 +3108,7 @@ input[type="number"] {
   font-weight: 500;
   font-size: 14px;
   border: 2px solid #eee;
-  color: var(--color-primary);
+  color: var(--color-light);
 }
 
 .product-details-wrap .pd-quick-discription li .color-option label span.p-color,
@@ -3145,7 +3147,7 @@ input[type="number"] {
 .product-details-wrap .pd-quick-discription li.pd-cart-btns .pd-add-cart {
   display: inline-block;
   margin-right: 20px;
-  background: #101010;
+  background: var(--color-secondary);
   border-radius: 3px;
   border: none;
   outline: 0;
@@ -3231,7 +3233,7 @@ input[type="number"] {
   min-width: 120px;
   font-weight: 500;
   font-size: 20px;
-  color: var(--color-primary);
+  color: var(--color-light);
   font-family: var(--font-secondary);
 }
 
@@ -3239,7 +3241,7 @@ input[type="number"] {
   font-weight: 500;
   font-size: 16px;
   font-family: var(--font-secondary);
-  color: var(--color-secondary);
+  color: var(--color-light);
 }
 
 .product-discription-wrapper .discription-review .review-form-wrap h5 {
@@ -3254,7 +3256,7 @@ input[type="number"] {
 .product-discription-wrapper .discription-review .review-form-wrap h3 {
   font-weight: 700;
   font-size: 25px;
-  color: var(--color-primary);
+  color: var(--color-light);
   padding: 20px 0 10px;
 }
 
@@ -3443,9 +3445,10 @@ input[type="number"] {
 
 .client-review-card {
   padding: 20px;
-  border: 1px solid #eee;
+  border: 3px solid var(--color-primary);
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  border-radius: 10px;
 }
 
 .blog-details
@@ -4144,12 +4147,11 @@ input[type="number"] {
 
 .reg-input-group input[type="submit"]:hover {
   color: var(--color-primary);
-  border: 2px solid var(--color-primary);
 }
 
 .reg-input-group select {
   box-sizing: border-box;
-  border-radius: 100px;
+  border-radius: 12px;
   padding: 0 20px;
 }
 
@@ -4193,7 +4195,7 @@ input[type="number"] {
 
 .reg-input-group.reg-check-input label a {
   font-weight: 600;
-  color: var(--color-primary);
+  color: var(--color-light);
 }
 
 .reg-social-login {
@@ -4412,7 +4414,7 @@ input[type="number"] {
 .account-sitting-wrapper .billing-card,
 .account-sitting-wrapper .shipping-card {
   padding: 40px;
-  background: #fff;
+  background: var(--color-secondary);
   -webkit-box-shadow: -7px 10px 50px rgba(0, 0, 0, 0.08);
   box-shadow: -7px 10px 50px rgba(0, 0, 0, 0.08);
   border-radius: 5px;
@@ -4423,7 +4425,7 @@ input[type="number"] {
   font-weight: 600;
   font-size: 20px;
   text-transform: capitalize;
-  color: var(--color-primary);
+  color: var(--color-light);
   margin-bottom: 10px;
 }
 
@@ -4433,7 +4435,7 @@ input[type="number"] {
   font-weight: 500;
   font-size: 14px;
   text-transform: capitalize;
-  color: var(--color-secondary);
+  color: var(--color-light);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4905,12 +4907,10 @@ input[type="number"] {
 .faq-accordions .accordion-item h2 button {
   -webkit-box-shadow: none;
   box-shadow: 0 0 0 2px var(--color-secondary);
-  background: var(
-  --color-primary);
+  background: var(--color-primary);
   font-weight: 500;
   font-size: 18px;
-  color: var(
-  --color-light);
+  color: var(--color-light);
   border-radius: 7px !important;
 }
 
