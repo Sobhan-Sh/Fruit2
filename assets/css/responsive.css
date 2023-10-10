@@ -206,12 +206,13 @@
         z-index: 99999;
         height: 100%;
         overflow: auto;
-        background: #000;
+        background: var(--color-primary);
         -webkit-transform: translateX(250px);
         transform: translateX(250px);
         -webkit-transition: -webkit-transform .3s ease-in;
         transition: transform .3s ease-in;
-        transition: transform .3s ease-in,-webkit-transform .3s ease-in
+        transition: transform .3s ease-in,
+        -webkit-transform .3s ease-in
     }
 
     .main-nav>ul>li.has-child-menu:after {
@@ -221,7 +222,7 @@
     .hamburger span {
         width: 100%;
         height: 3px;
-        background: var(--color-primary)!important;
+        background: var(--color-light)!important;
         display: block;
         position: absolute;
         left: 0;
@@ -395,7 +396,7 @@
 
     .feature-banner-col .banner-feature-item {
         margin-top: 24px;
-        min-width: 259px
+        min-width: 324px;
     }
 
     .topbar-area .topbar-contact {
